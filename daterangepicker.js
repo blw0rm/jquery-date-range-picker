@@ -619,7 +619,7 @@
 				opt.end = date2.getTime();
 				if (compare_month(date1,date2) == 0)
 				{
-					date2 = nextMonth(date1);
+					date2 = nextMonth(date2);
 				}
 				if (opt.time.enabled) {
 					renderTime("time1", date1);
